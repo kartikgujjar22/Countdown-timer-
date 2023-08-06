@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Countdown Timer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-dark-subtle">
+
+  <div class="d-flex justify-content-center align-items-center fw-bold bg-dark text-light p-2 flex-wrap ">
+    <h1>COUNTDOWN TIMER</h1>  <h6>Made by Kartik</h6>
+  </div>
+  <div class="d-flex justify-content-center align-items-center fw-bold bg-primary-subtle text-dark p-2 flex-wrap ">
+    <h3 class="text-primary">CURRENT TIME -> </h3> <h3 id="time"> 45:54</h3>
+  </div>
+
+  <div class="d-flex justify-content-center align-items-center fw-bold bg-dark-subtle  text-dark p-2 flex-wrap">
+    <h3 class="text-danger">Timer Date & Time -> </h3> <h3 id="end-date"> 03 August 2023 00:00 AM</h3> 
+    <!-- <p id="end-date">03 August 2023 00:00 AM</p> -->
+  </div>
+
+
+  <div class="d-flex justify-content-center align-items-center flex-wrap" style="margin-top: 80px;" >
+
+    <div class="bg-dark fs-1 rounded-2 text-light" style="padding: 25px; margin: 15px; width: 200px;">
+      <span class="fw-bolder ">Days</span>
+      <div class="fw-bold d-flex justify-content-center align-items-center">
+        <span id="dys">00</span>
+      </div>
+    </div>
+
+    <div class="bg-dark fs-1 rounded-2 text-light" style="padding: 25px; margin: 15px; width: 200px;">
+      <span class="fw-bolder ">Hours</span>
+      <div class="fw-bold d-flex justify-content-center align-items-center">
+        <span id="hours">00</span>
+      </div>
+    </div>
+
+    <div class=" bg-dark fs-1 rounded-2 text-light" style="padding: 25px; margin: 15px; width: 200px;">
+      <span class="fw-bolder">Minutes</span>
+      <div class="fw-bold d-flex justify-content-center align-items-center">
+        <span id="minutes">00</span>
+      </div>
+    </div>
+
+    <div class="bg-dark fs-1 rounded-2 text-light" style="padding: 25px; margin: 15px; width: 200px;">
+      <span class="fw-bolder">Seconds</span>
+      <div class="fw-bold d-flex justify-content-center align-items-center">
+        <span id="seconds">00</span>
+      </div>
+    </div>
+    <br>
+
+<!--     
+    <div class="bg-dark-subtle p-4 h-25 fw-bold rounded-2 ">
+      <label class="mb-5" for="">Enter Date for Timer :</label>
+      <input class="dateValue" type="date" placeholder="Enter date">
+      <br>
+      <label for="">Enter Time for Timer:</label>
+      <input class="timerValue" type="time" placeholder="Enter Time">
+    </div>
+  </div> -->
+
+  <!-- <div>
+    <label for="datetimeInput">Enetr date & time : </label>
+    <input type="datetime-local" id="datetimeInput">
+    <button onclick="handleDateTime()"> Use Date and Time </button>
+  </div> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
